@@ -1,0 +1,13 @@
+function main(){
+   while (frontIsClear()) {
+   Put();
+   }     
+}
+
+function Put(){
+         putBeeper();
+         move();
+         turnLeft();
+         move();
+         turnRight();   
+}
