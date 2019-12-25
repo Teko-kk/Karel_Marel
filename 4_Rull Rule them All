@@ -1,0 +1,25 @@
+function main(){
+ while(leftIsClear()){
+       LineFill();
+       Back();
+       turnRight();
+       move();
+       turnRight();
+ }
+       LineFill();
+}
+   
+function LineFill(){
+         putBeeper();
+ while(frontIsClear()){
+         move();
+         putBeeper();
+ }
+}
+   
+function Back(){
+         turnAround();
+ while(frontIsClear()){
+       move();
+ }
+}
